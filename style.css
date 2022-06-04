@@ -1,0 +1,54 @@
+@import url('http://fonts.cdnfonts.com/css/scientific-calculator-lcd');
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#calculator {
+    position: relative;
+    box-shadow: 0px 0px 0px 10px rgb(255, 153, 0);
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 270px;
+    height: 425px;
+    margin-top: 100px;
+    margin-left: 500px;
+}
+
+#display {    
+    font-family: 'Scientific Calculator LCD', sans-serif;
+    height: 50px;
+    text-align: right;
+    background-color: black;
+    border: 3px solid white;
+    font-size: 35px;
+    color: rgb(255, 255, 47);
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(233, 210, 6);
+    align-items: center;
+}
+
+.row button {
+    margin: 10px;
+    width: 100%;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid black;
+    box-shadow: 2px 2px black;
+    cursor: pointer;
+    font-size: 35px;
+}
+
+#equals {
+    border-radius: 3%;
+}
